@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: ANHLN
+  description: provision-ec2.
+  company: FPT Software
+  license: provision-ec2
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - acme
+    - installer
+    - web
+dependencies:
+  - { role: ngotnghet.provision-ec2 }
